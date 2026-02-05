@@ -1,0 +1,53 @@
+{
+  "name": "gemini-design-mcp",
+  "version": "3.12.12",
+  "description": "MCP server that uses Gemini 3 Pro for frontend/design code generation",
+  "main": "build/index.js",
+  "bin": {
+    "gemini-design-mcp": "build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "start:sse": "TRANSPORT=sse node build/index.js",
+    "prepublishOnly": "echo 'Publishing...'"
+  },
+  "keywords": [
+    "mcp",
+    "gemini",
+    "design",
+    "frontend",
+    "ai",
+    "model-context-protocol",
+    "claude",
+    "codex"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@google/genai": "^1.33.0",
+    "zod": "^3.23.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "build",
+    "README.md"
+  ]
+}
