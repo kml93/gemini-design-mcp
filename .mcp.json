@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "gemini-design": {
+    "Gemini-Design": {
       "type": "stdio",
       "command": "bash",
       "args": ["-c", "cd \"${CLAUDE_PLUGIN_ROOT}\" && bun install --silent 2>/dev/null && exec bun build/index.js"],
