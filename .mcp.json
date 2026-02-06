@@ -1,0 +1,10 @@
+{
+  "gemini-design": {
+    "type": "stdio",
+    "command": "bun",
+    "args": ["${CLAUDE_PLUGIN_ROOT}/build/index.js"],
+    "env": {
+      "API_KEY": "${GEMINI_API_KEY}"
+    }
+  }
+}
