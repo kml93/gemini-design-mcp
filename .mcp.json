@@ -2,8 +2,7 @@
   "mcpServers": {
     "gemini-design": {
       "type": "stdio",
-      "command": "sh",
-      "args": ["-c", "bun install && bun build/index.js"],
+      "command": "./start.sh",
       "env": {
         "API_KEY": "${GEMINI_API_KEY}"
       }
