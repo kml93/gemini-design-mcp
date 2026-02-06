@@ -1,0 +1,6 @@
+{
+  "name": "Gemini-Design",
+  "description": "Frontend/design code generation via Google Gemini 3 Pro",
+  "version": "3.12.12",
+  "homepage": "https://github.com/kml93/gemini-design-mcp"
+}
